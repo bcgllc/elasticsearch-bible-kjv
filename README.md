@@ -15,7 +15,7 @@ The Kibana dashboard interface has been pre-configured to present upon search th
 - Book
 - Chapter
 - Verse
-- Top 60 Near Words
+- Top 50 Near Words
 - Up to 300 documents can be navigated
 
 NOTE: ** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Install instructions can be provided if needed.
