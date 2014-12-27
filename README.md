@@ -28,6 +28,7 @@ The project comes with the following files:
 - XLSX files for each book of the Bible
 
 In order to run the Python script kjv.py, Elasticsearch for Python must be installed using the following command:
+
 pip install elasticsearch
 
 Only Python version 2.7 has been tested.
