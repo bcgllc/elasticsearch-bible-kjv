@@ -7,7 +7,7 @@ This project is 100% free to use.
 
 Have you ever wondered how many times a word occurs in the Bible? One option is picking up a heavy Strong's Concordance reference, but looking it up WILL be very time consuming. Not anymore...
 
-The purpose of this project is to be able to instantly search for any word or string in the KJV Bible using Elasticsearch engine server with Kibana dashboard browser interface.
+The purpose of this project is to be able to instantly search for any word or text string in the KJV Bible using Elasticsearch engine server with Elasticsearch-Kibana dashboard browser interface.
 
 The Kibana dashboard interface has been pre-configured to present upon search the results by:
 - Total Hits
@@ -18,7 +18,7 @@ The Kibana dashboard interface has been pre-configured to present upon search th
 - Top 50 Near Words (that were also found in verses from your search results)
 - Up to 300 verse results can be navigated
 
-**NOTE:** ** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Install instructions can be provided if needed.
+**NOTE:** ** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Detailed install instructions can be provided if there is enough community interest.
 ** Word 2007 or greater is required if you wish to use the XLSX files.
 
 The project comes with the following files:
