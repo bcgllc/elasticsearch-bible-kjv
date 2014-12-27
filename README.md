@@ -18,7 +18,7 @@ The Kibana dashboard interface has been pre-configured to present upon search th
 - Top 50 Near Words
 - Up to 300 documents can be navigated
 
-NOTE: ** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Install instructions can be provided if needed.
+**NOTE:** ** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Install instructions can be provided if needed.
 ** Word 2007 or greater is required if you wish to use the XLSX files.
 
 The project comes with the following files:
@@ -29,7 +29,7 @@ The project comes with the following files:
 
 In order to run the Python script kjv.py, Elasticsearch for Python must be installed using the following command:
 
-pip install elasticsearch
+**pip install elasticsearch**
 
 Only Python version 2.7 has been tested.
 
@@ -37,7 +37,6 @@ NOTE: An index must be created in the Elasticsearch instance before the import s
 
 To import the CSV files into your Elasticsearch instance, run this command:
 
-python kjv.py
+**python kjv.py**
 
 *** If you are familiar with virtual machines, one of the easiest way to get this going is to install VirtualBox on your Mac or PC. Create a Redhat/CentOS 64-bit virtual machine with at least 1024MB of memory. Then install Elasticsearch server then you can access it from your browser. I am leaving out many steps here but it can work...
-
