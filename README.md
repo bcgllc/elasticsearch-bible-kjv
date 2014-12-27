@@ -5,7 +5,9 @@ The Holy Bible (KJV) for Elasticsearch
 
 This project is 100% free to use.
 
-The purpose of this project is to be able to search for any word or string in the KJV Bible using backend Elasticsearch engine with Kibana frontend.
+Have you ever wondered how many times a word occurs in the Bible? One option is Strong's Concordance, but looking it up WILL be very time consuming. Not anymore...
+
+The purpose of this project is to be able to instantly search for any word or string in the KJV Bible using Elasticsearch engine server with Kibana dashboard interface.
 
 The Kibana dashboard interface has been pre-configured to present upon search the results by:
 - Total Hits
@@ -36,4 +38,5 @@ If you wish to use another name for the index go ahead, just make sure you updat
 To import the CSV files into your Elasticsearch instance, run this command:
 python kjv.py
 
+*** If you are familiar with virtual machines, one of the easiest way to get this going is to install VirtualBox on your Mac or PC. Create a Redhat/CentOS 64-bit virtual machine with at least 1024MB of memory. Then install Elasticsearch server then you can access it from your browser. I am leaving out many steps here but it can work...
 
