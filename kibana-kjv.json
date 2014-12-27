@@ -4,7 +4,7 @@
     "query": {
       "list": {
         "0": {
-          "query": "",
+          "query": "*",
           "alias": "",
           "color": "#7EB26D",
           "id": 0,
@@ -51,7 +51,7 @@
               0
             ]
           },
-          "title": "Results"
+          "title": "Total Hits"
         },
         {
           "error": false,
@@ -238,7 +238,7 @@
           "tmode": "terms",
           "tstat": "total",
           "valuefield": "",
-          "title": "Top Words"
+          "title": "Top 50 Near Words"
         }
       ],
       "notice": false
@@ -332,6 +332,7 @@
       "query": "*",
       "pinned": true,
       "history": [
+        "*",
         "",
         "instant",
         "fallen",
@@ -340,7 +341,6 @@
         "beautiful*",
         "lovely",
         "time",
-        "*",
         "lose"
       ],
       "remember": 10,
