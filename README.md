@@ -7,7 +7,7 @@ This project is 100% free to use.
 
 Have you ever wondered how many times a word occurs in the Bible? One option is Strong's Concordance, but looking it up WILL be very time consuming. Not anymore...
 
-The purpose of this project is to be able to instantly search for any word or string in the KJV Bible using Elasticsearch engine server with Kibana dashboard interface.
+The purpose of this project is to be able to instantly search for any word or string in the KJV Bible using Elasticsearch engine server with Kibana dashboard browser interface.
 
 The Kibana dashboard interface has been pre-configured to present upon search the results by:
 - Total Hits
