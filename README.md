@@ -33,8 +33,7 @@ pip install elasticsearch
 
 Only Python version 2.7 has been tested.
 
-NOTE: An index must be created in Elasticsearch instance before import script is run. Create an index called 'bible'.
-If you wish to use another name for the index go ahead, just make sure you update the python script where "index_name = bible".
+NOTE: An index must be created in the Elasticsearch instance before the import script is run. Create an index called 'bible'. If you wish to use another name for the index go ahead, just make sure you update the python script where "index_name = bible".
 
 To import the CSV files into your Elasticsearch instance, run this command:
 python kjv.py
