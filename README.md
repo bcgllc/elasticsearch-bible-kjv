@@ -27,18 +27,18 @@ The project comes with the following files:
 - CSV files for each book of the Bible (created from XLSX files)
 - XLSX files for each book of the Bible
 
-In order to run the Python script kjv.py, Elasticsearch for Python must be installed using the following command:
+Before running the Python script **kjv.py**, Elasticsearch for Python must be installed using the following command:
 
 **pip install elasticsearch**
 
 Only Python version 2.7 has been tested.
 
-NOTE: An index must be created in the Elasticsearch instance before the import script is run. Create an index called 'bible'. If you wish to use another name for the index go ahead, just make sure you update the python script where "index_name = bible".
+**NOTE:** An index must be created in the Elasticsearch instance before the import script is run. Create an index called 'bible'. If you wish to use another name for the index go ahead, just make sure you update the python script where "index_name = bible".
 
-To import the CSV files into your Elasticsearch instance, run this command:
+To import the CSV files into your Elasticsearch instance run this command:
 
 **python kjv.py**
 
-After import there should be **31102** verses stored. One Bible verse equals one Elasticsearch document.
+After import there should be **31102** verses stored. One Bible verse equals one Elasticsearch document. In the Kibana interface, enter * as the search criteria and hit 'enter'. Total Hits should read **31102**.
 
 *** If you are familiar with virtual machines, one of the easiest ways to get this going is to install VirtualBox on your Mac or PC. Create a Redhat/CentOS 64-bit virtual machine with at least 1024MB of memory. Then install Elasticsearch server and if setup correctly you can access it from your browser. I am leaving out many steps here but it can work...
