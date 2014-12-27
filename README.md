@@ -36,6 +36,7 @@ Only Python version 2.7 has been tested.
 NOTE: An index must be created in the Elasticsearch instance before the import script is run. Create an index called 'bible'. If you wish to use another name for the index go ahead, just make sure you update the python script where "index_name = bible".
 
 To import the CSV files into your Elasticsearch instance, run this command:
+
 python kjv.py
 
 *** If you are familiar with virtual machines, one of the easiest way to get this going is to install VirtualBox on your Mac or PC. Create a Redhat/CentOS 64-bit virtual machine with at least 1024MB of memory. Then install Elasticsearch server then you can access it from your browser. I am leaving out many steps here but it can work...
