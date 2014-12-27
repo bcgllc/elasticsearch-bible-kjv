@@ -38,6 +38,6 @@ To import the CSV files into your Elasticsearch instance run this command:
 
 **python kjv.py**
 
-After import there should be **31102** verses stored. One Bible verse equals one Elasticsearch document. In the Kibana interface, enter * as the search criteria and hit 'enter'. Total Hits should read **31102**.
+After import there should be **31102** verses stored. One Bible verse equals one Elasticsearch document. In the Kibana interface, enter * as the search criteria and hit 'enter'. Total Hits should read **31102**. Remarkably, the entire King James Bible index only consumes ~16MB of drive space.
 
 *** If you are familiar with virtual machines, one of the easiest ways to get this going is to install VirtualBox on your Mac or PC. Create a Redhat/CentOS 64-bit virtual machine with at least 1024MB of memory. Then install Elasticsearch server and if setup correctly you can access it from your browser. I am leaving out many steps here but it can work...
