@@ -18,7 +18,7 @@ The Kibana dashboard interface has been pre-configured to present upon search th
 - Top 60 Near Words
 - Up to 300 documents can be navigated
 
-** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Install instructions can be provided if needed.
+NOTE: ** Knowledge of how to setup and use Elasticsearch Server, Kibana, and Apache (HTTPD) is required. Install instructions can be provided if needed.
 ** Word 2007 or greater is required if you wish to use the XLSX files.
 
 The project comes with the following files:
