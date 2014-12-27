@@ -1,10 +1,10 @@
 {
-  "title": "Bible (KJV)",
+  "title": "The Holy Bible (KJV) Search",
   "services": {
     "query": {
       "list": {
         "0": {
-          "query": "*",
+          "query": "",
           "alias": "",
           "color": "#7EB26D",
           "id": 0,
@@ -262,7 +262,7 @@
           "pages": 12,
           "offset": 0,
           "sort": [
-            "chapter",
+            "book",
             "asc"
           ],
           "style": {
@@ -332,16 +332,16 @@
       "query": "*",
       "pinned": true,
       "history": [
-        "*",
-        "lose",
-        "loser",
-        "love",
-        "majesty",
         "",
-        "majestic",
-        "King of Kings",
-        "\"King of Kings\"",
-        "\"king of kings\""
+        "instant",
+        "fallen",
+        "beauty",
+        "beautiful",
+        "beautiful*",
+        "lovely",
+        "time",
+        "*",
+        "lose"
       ],
       "remember": 10,
       "enable": true
