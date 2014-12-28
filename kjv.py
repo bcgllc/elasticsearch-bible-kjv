@@ -18,7 +18,7 @@ from elasticsearch import Elasticsearch
 # Set ES Parameters
 index_name = 'bible'
 doc_type_name = 'kjv'
-es = Elasticsearch('sgc1')
+es = Elasticsearch('<server IP or hostname>')
 
 # Import CSV
 import csv
@@ -94,7 +94,7 @@ files = [
 ]
 
 print
-print "Importing CSV files into Elasticsearch Index: \'Bible\'"
+print "Importing CSV files into Elasticsearch Index: \'bible\'"
 print
 
 for file in files:
