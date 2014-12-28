@@ -18,6 +18,9 @@ The Kibana dashboard interface has been pre-configured to present upon search th
 - Top 50 Near Words (that were also found in verses from your search results)
 - Up to 300 verse results can be navigated
 
+To read more about how to customize the search criterias, head on over to this page:
+https://lucene.apache.org/core/2_9_4/queryparsersyntax.html
+
 **NOTE:** Knowledge of how to setup and use Elasticsearch Server and Kibana is required. Detailed install instructions can be provided if there is enough community interest. Word 2007 or greater is required if you wish to use the XLSX files.
 
 The project comes with the following files:
