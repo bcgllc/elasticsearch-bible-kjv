@@ -3,6 +3,7 @@
 # Anthony Crawford
 # December 2014
 # Provided Free and Open Source
+# Comes with NO warranty whatsoever
 ###
 
 import os
