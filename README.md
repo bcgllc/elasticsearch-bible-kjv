@@ -9,7 +9,7 @@ Have you ever wondered how many times a word occurs in the Bible? One option is 
 
 The purpose of this project is to be able to instantly search for any word or text string in the KJV Bible using Elasticsearch engine server with Elasticsearch-Kibana dashboard browser interface.
 
-The Kibana dashboard interface has been pre-configured to present upon search the results by:
+The dashboard interface has been pre-configured to present search results by:
 - Total Hits
 - Testament
 - Book
@@ -21,21 +21,21 @@ The Kibana dashboard interface has been pre-configured to present upon search th
 To read more about how to customize the search criterias, head on over to this page:
 https://lucene.apache.org/core/2_9_4/queryparsersyntax.html
 
-**NOTE:** Knowledge of how to setup and use Elasticsearch Server and Kibana is required. Detailed install instructions can be provided if there is enough community interest. Word 2007 or greater is required if you wish to use the XLSX files.
+**NOTE:** Knowledge of how to setup and use Elasticsearch and Kibana is recommended. Detailed install instructions can be provided if there is enough community interest. Word 2007 or greater is required if you wish to modify the XLSX files for another translation.
 
 The project comes with the following files:
 - Python script (kjv.py)
 - Kibana script (kibana-kjv.json)
-- CSV files for each book of the Bible (created from XLSX files)
+- CSV files for each book of the Bible (created from XLSX files, exported as "CSV Comma Delimited")
 - XLSX files for each book of the Bible
 
-Before running the Python script **kjv.py**, Elasticsearch for Python must be installed using the following command:
+Before running the Python script **kjv.py**, Elasticsearch package for Python must be installed using the following command:
 
 **pip install elasticsearch**
 
 Only Python version 2.7 has been tested.
 
-**NOTE:** An index must be created in the Elasticsearch instance before the import script is run. Create an index called 'bible'. If you wish to use another name for the index go ahead, just make sure you update the python script where "index_name = bible".
+**NOTE:** An index must be created in the Elasticsearch instance before the import script is run. Create an index called 'bible'. If you wish to use another name for the index go ahead, just make sure you update the Python script where "index_name = bible".
 
 To import the CSV files into your Elasticsearch instance run this command:
 
