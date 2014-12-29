@@ -1,7 +1,7 @@
 elasticsearch-bible-kjv
 =======================
 
-The Holy Bible (KJV) for Elasticsearch
+The Holy Bible (King James Version) for Elasticsearch
 
 This project is 100% free to use.
 
